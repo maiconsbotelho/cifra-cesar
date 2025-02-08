@@ -6,12 +6,13 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
+  margin-top: 10%;
+  /* overflow: hidden; */
 
   background: linear-gradient(
     to right,
@@ -33,11 +34,17 @@ body {
   border-radius: 50%;
 }
 
+.titulo {
+  font-size: 36px;
+  margin: 50px 0px 100px;
+}
+
 .campo {
   display: flex;
   align-items: center;
   font-size: var(--tamanho-da-fonte);
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+
 }
 
 .entrada {
@@ -88,7 +95,7 @@ body {
   .campo {
 
     flex-direction: column; /* Alinha os campos verticalmente */
-    margin: 20px;
+    margin: 5px;
    
   }
 
@@ -99,7 +106,7 @@ body {
 
   
   .entrada {
-    margin: 20px 0px;
+    margin: 10px 0px;
   }
 
   .btn {
