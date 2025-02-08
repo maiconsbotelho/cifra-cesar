@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,49 +95,11 @@ body {
   }
 
   
-.entrada {
-  margin: 20px 0px;
-}
+  .entrada {
+    margin: 20px 0px;
+  }
 
   .btn {
     width: 60%; /* Botão ocupando toda a largura */
   }
 }
-
-/* Tela média (tablets) */
-/* @media (max-width: 900px) {
-  .imagem {
-    height: 170px;
-  }
-
-  .campo {
-    flex-direction: row;
-  }
-
-  .entrada {
-    width: 80%;
-  }
-
-  .btn {
-    width: 80%;
-  }
-} */
-
-/* Tela grande (desktops) */
-/* @media (min-width: 900px) {
-  .imagem {
-    height: 180px;
-  }
-
-  .campo {
-    flex-direction: row;
-  }
-
-  .entrada {
-    width: 60%;
-  }
-
-  .btn {
-    width: 40%;
-  }
-} */
