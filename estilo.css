@@ -70,3 +70,74 @@ body {
   background-color: #0005;
   border-radius: var(--raio-borda);
 }
+
+/* Tela pequena (celulares) */
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem; /* Ajusta o tamanho da fonte para telas pequenas */
+  }
+
+  .seletor {
+    width: 100%; /* Seletor ocupando toda a largura */
+    margin: 0px;
+  }
+
+  .campo {
+
+    flex-direction: column; /* Alinha os campos verticalmente */
+    margin: 20px;
+   
+  }
+
+  .titulo {
+    margin: 20px 0px;
+    font-size: 24px;
+  }
+
+  
+.entrada {
+  margin: 20px 0px;
+}
+
+  .btn {
+    width: 60%; /* Botão ocupando toda a largura */
+  }
+}
+
+/* Tela média (tablets) */
+/* @media (max-width: 900px) {
+  .imagem {
+    height: 170px;
+  }
+
+  .campo {
+    flex-direction: row;
+  }
+
+  .entrada {
+    width: 80%;
+  }
+
+  .btn {
+    width: 80%;
+  }
+} */
+
+/* Tela grande (desktops) */
+/* @media (min-width: 900px) {
+  .imagem {
+    height: 180px;
+  }
+
+  .campo {
+    flex-direction: row;
+  }
+
+  .entrada {
+    width: 60%;
+  }
+
+  .btn {
+    width: 40%;
+  }
+} */
