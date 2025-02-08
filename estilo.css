@@ -11,6 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
 
   background: linear-gradient(
     to right,
@@ -19,6 +20,8 @@ body {
     #0f2027
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+
 
 .destaque {
   font-weight: 900;
